@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<title>循环显示图形</title>
+	<style>
+		body { background: #000; }
+		#pics { width: 700px; margin: 0 auto; }
+		#pics div{ display: inline-block; margin: 20px; visibility: hidden; }
+		.square {     width: 100px;     height: 100px;     background: #fff; }
+		.triangle-up {     width: 0;     height: 0;     border-left: 50px solid transparent;     border-right: 50px solid transparent;  
+   border-bottom: 100px solid #fff; }
+		.circle {     width: 100px;     height: 100px;     background: #fff;     -moz-border-radius: 50px;     -webkit-border-radius: 50px;  
+   border-radius: 50px; }
+	</style>
+</head>
+<body>
+	<div id="pics">
+		<div class="square"></div>
+		<div class="triangle-up"></div>
+		<div class="circle"></div>
+	</div>
+	<script type="text/javascript" src="change.js"></script>
+</body>
+</html>
