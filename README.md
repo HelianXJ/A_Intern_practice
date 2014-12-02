@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 A_Intern_practice
 =================
 
@@ -11,11 +11,11 @@ Cyclic_change
 
 效果如下：
 
-<img src="img/1.png" />
+<img src="cyclic-change/img/1.png" />
 
-<img src="img/2.png" />
+<img src="cyclic-change/img/2.png" />
 
-<img src="img/3.png" />
+<img src="cyclic-change/img/3.png" />
 
 
 
